@@ -318,9 +318,9 @@ export default function Home() {
                   <div className="blur-text-container" data-delay="100" data-animate-by="words" data-direction="top">
  <BlurText
   text="Create with Visura"
-  delay={150}
+  delay={190}
   animateBy="words"
-  direction="top"
+  direction="bottom"
   onAnimationComplete={() => console.log("Animation completed!")}
   className="text-4xl font-bold text-foreground"
 />             
