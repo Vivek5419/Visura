@@ -319,15 +319,16 @@ export default function Home() {
  
 <BlurText
   text="Create with Visura"
-  delay={150}
+  delay={190}
   animateBy="words"
-  direction="top"
+  direction="bottom"
   onAnimationComplete={() => console.log("Animation completed!")}
-  className="text-4xl font-bold text-foreground text-center"
+  className="text-4xl font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent text-center"
 />
-                </div>
-                  <p className="text-muted-foreground">Transform your imagination into stunning visuals</p>
-                </div>
+
+<p className="text-muted-foreground">
+  Transform your imagination into stunning visuals
+</p>
 
                 <div className="grid gap-4 md:grid-cols-2">
                   <div className="space-y-2">
