@@ -315,25 +315,19 @@ export default function Home() {
             >
               <div className="space-y-6">
                 <div className="text-center">
-  <div
-    className="blur-text-container"
-    data-delay="100"
-    data-animate-by="words"
-    data-direction="top"
-  >
-    <BlurText
-      text="Create with Visura"
-      delay={190}
-      animateBy="words"
-      direction="bottom"
-      onAnimationComplete={() => console.log("Animation completed!")}
-      className="text-4xl md:text-5xl font-bold text-center 
-                 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 
-                 bg-clip-text text-transparent"
-    />
-  </div>   {/* ✅ THIS closes the blur-text-container div */}
+  <BlurText
+    text="Create with Visura"
+    delay={190}
+    animateBy="words"
+    direction="bottom"
+    onAnimationComplete={() => console.log('Animation completed!')}
+    className="text-4xl md:text-5xl font-bold text-center 
+               bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 
+               bg-clip-text text-transparent"
+  />
 
-  <p className="text-muted-foreground">
+  {/* Subtitle (will stay visible) */}
+  <p className="mt-2 text-muted-foreground text-base md:text-lg">
     Transform your imagination into stunning visuals
   </p>
 </div>
