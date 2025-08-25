@@ -1,6 +1,5 @@
-import BlurText from "@/components/BlurText";
 "use client"
-
+import BlurText from "@/components/BlurText";
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
