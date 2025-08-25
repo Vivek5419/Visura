@@ -316,15 +316,13 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="text-center">
   <BlurText
-    text="Create with Visura"
-    delay={190}
-    animateBy="words"
-    direction="bottom"
-    onAnimationComplete={() => console.log('Animation completed!')}
-    className="text-4xl md:text-5xl font-bold text-center 
-               bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 
-               bg-clip-text text-transparent"
-  />
+  text="Create with Visura"
+  delay={150}
+  animateBy="chars"
+  direction="top"
+  onAnimationComplete={() => console.log("Animation completed!")}
+  className="inline-block text-4xl font-bold bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent text-center"
+/>
 
   {/* Subtitle (will stay visible) */}
   <p className="mt-2 text-muted-foreground text-base md:text-lg">
