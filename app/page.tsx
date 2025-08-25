@@ -324,6 +324,9 @@ export default function Home() {
   onAnimationComplete={() => console.log("Animation completed!")}
   className="text-2xl font-semibold mb-2 bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent"
 />
+<h2 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent">
+ Create with Visura
+  </h2>
               
                 </div>
                   <p className="text-muted-foreground">Transform your imagination into stunning visuals</p>
