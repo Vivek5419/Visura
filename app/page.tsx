@@ -323,9 +323,10 @@ export default function Home() {
   animateBy="words"
   direction="bottom"
   onAnimationComplete={() => console.log("Animation completed!")}
-  className="text-4xl font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent text-center"
+  className="text-4xl md:text-5xl font-bold text-center 
+             bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 
+             bg-clip-text text-transparent"
 />
-
 <p className="text-muted-foreground">
   Transform your imagination into stunning visuals
 </p>
