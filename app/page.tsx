@@ -318,12 +318,12 @@ export default function Home() {
             <div className="blur-text-container" data-delay="100" data-animate-by="words" data-direction="top">
  <BlurText
   text="Create with Visura"
-  delay={190}
+  delay={150}
   animateBy="words"
-  direction="bottom"
+  direction="top"
   onAnimationComplete={() => console.log("Animation completed!")}
- className="text-2xl font-semibold mb-2 bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent">
-   />
+  className="text-2xl font-semibold mb-2 bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent"
+/>
               
                 </div>
                   <p className="text-muted-foreground">Transform your imagination into stunning visuals</p>
