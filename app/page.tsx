@@ -315,7 +315,7 @@ export default function Home() {
             >
               <div className="space-y-6">
                 <div className="text-center">
-<h2                  <div className="blur-text-container" data-delay="100" data-animate-by="words" data-direction="top">
+            <div className="blur-text-container" data-delay="100" data-animate-by="words" data-direction="top">
  <BlurText
   text="Create with Visura"
   delay={190}
@@ -323,8 +323,8 @@ export default function Home() {
   direction="bottom"
   onAnimationComplete={() => console.log("Animation completed!")}
  className="text-2xl font-semibold mb-2 bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent">
-  </h2>
-/>             
+   />
+              
                 </div>
                   <p className="text-muted-foreground">Transform your imagination into stunning visuals</p>
                 </div>
